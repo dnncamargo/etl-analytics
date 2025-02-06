@@ -1,2 +1,8 @@
 # Ignorar pastas de ambiente virtual
 env/
+
+# Ignorar arquivos de download
+Data/
+
+# Ignorar arquivos de banco de dados
+*.db
