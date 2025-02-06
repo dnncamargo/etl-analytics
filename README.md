@@ -27,7 +27,9 @@ env\Scripts\activate
 ## Instalação das Dependências
 Caso as dependências não tenham sido instaladas automaticamente, execute:
 
+```bash
 pip install -r requirements.txt
+```
 
 ## Scripts Disponíveis
 script.py: Esta é a versão mais recente e deve ser utilizada para processamento de dados. Ela contém todas as atualizações e correções de bugs.
