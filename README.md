@@ -16,11 +16,11 @@ Este projeto realiza o processo de ETL (Extract, Transform, Load) utilizando dad
 
 ### Linux/Mac
 ```bash
-source env/bin/activate
+source env/bin/activate```
 
 ### Windows
 ```bash
-env\Scripts\activate
+env\Scripts\activate```
 
 ## Instalação das Dependências
 Caso as dependências não tenham sido instaladas automaticamente, execute:
