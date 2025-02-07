@@ -1,4 +1,4 @@
-# ETL Analytics
+# IMDB ETL Analytics
 
 Este projeto realiza o processo de ETL (Extract, Transform, Load) utilizando dados abertos do IMDB. Siga as instruções abaixo para configurar e executar o projeto.
 

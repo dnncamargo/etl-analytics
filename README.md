@@ -15,6 +15,8 @@ Em linhas gerais, o ETL descreve a movimentação e a modificação de dados de 
 - Adotar práticas de ETL nos ajuda a otimizar seus processos de tomada de decisão, melhorar a confiabilidade dos dados e reduzir inconsistências.
 
 ## Os projetos neste repositório
-imdb: Analisa os dados abertos do IMDB
+IMDB_ETL: Analisa os dados abertos do IMDB
 [IMDb Non-Commercial Datasets](https://developer.imdb.com/non-commercial-datasets/)
 
+COVID OPEN DATA:Analisa os dados abertos da Google sobre a COVID-19
+[Google Open Data](https://health.google.com/covid-19/open-data/)
