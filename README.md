@@ -1,78 +1,20 @@
-# ETL Analytics
+### ETL Analytics
 
-Este projeto realiza o processo de ETL (Extract, Transform, Load) utilizando dados abertos do IMDB. Siga as instruções abaixo para configurar e executar o projeto.
+## O Conceito de ETL
 
----
+Em linhas gerais, o ETL descreve a movimentação e a modificação de dados de uma origem para um destino, passando por uma fase de transformação no meio do caminho
 
-## Configuração do Ambiente Virtual
+- EXTRACT: A extração de dados envolve a coleta de diversas fontes de dados
+- TRANSFORM: A Transformação compreende a modificação dos dados para atender às necessidades específicas do projeto;
+- LOAD: Carga diz respeito ao armazenamento dos dados transformados em um local de destino.
 
-1. **Execute o script de configuração**:
-   O script `setup.py` cria o ambiente virtual e instala as dependências necessárias. Execute o seguinte comando:
-   ```bash
-   python setup.py
+## A importância do ETL
 
-2. **Ativação do Ambiente Virtual** 
-   Após a criação do ambiente virtual, ative-o usando o comando abaixo:
+- A aplicação de técnicas de ETL é fundamental para garantir a qualidade, consistência e relevância dos dados em um projeto.
+- Ela possibilita a integração de informações provenientes de diferentes fontes, facilita a limpeza e padronização dos dados, além de preparar as informações de maneira adequada para análises futuras.
+- Adotar práticas de ETL nos ajuda a otimizar seus processos de tomada de decisão, melhorar a confiabilidade dos dados e reduzir inconsistências.
 
-### Linux/Mac
-```bash
-source env/bin/activate
-```
+## Os projetos neste repositório
+imdb: Analisa os dados abertos do IMDB
+[IMDb Non-Commercial Datasets](https://developer.imdb.com/non-commercial-datasets/)
 
-### Windows
-```bash
-env\Scripts\activate
-```
-
-## Instalação das Dependências
-Caso as dependências não tenham sido instaladas automaticamente, execute:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Scripts Disponíveis
-`script.py`: Esta é a versão mais recente e deve ser utilizada para processamento de dados. Ela contém todas as atualizações e correções de bugs.
-
-`script_v1_legacy.py`: Esta é uma versão antiga, mantida apenas para referência histórica. Não recomendamos o uso desta versão.
-
-## Como Executar
-Para executar o script mais recente, use o seguinte comando:
-```bash
-python script.py
-```
-
-O script fará o download dos dados, processará o ETL e gerará os resultados.
-
-## Estrutura do Projeto
-```bash
-etl-analytics/
-├── env/                  # Pasta do ambiente virtual (não versionada)
-├── data/                 # Pasta para armazenar dados baixados e processados
-├── script.py             # Script principal (versão mais recente)
-├── script_v1_legacy.py   # Versão antiga do script (apenas para referência)
-├── setup.py              # Script para configurar o ambiente virtual
-├── requirements.txt      # Lista de dependências
-├── README.md             # Este arquivo
-```
-
-## Observações
-Certifique-se de que o ambiente virtual está ativado antes de executar o script.
-
-Se você encontrar problemas, consulte a seção de Issues ou abra uma nova issue.
-
-## Contribuição
-Contribuições são bem-vindas! Siga as etapas abaixo:
-
-Faça um fork do projeto.
-
-Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
-
-Commit suas mudanças (`git commit -m 'Adiciona nova feature'`).
-
-Faça push para a branch (`git push origin feature/nova-feature`).
-
-Abra um Pull Request.
-
-## Licença
-Este projeto está licenciado sob a MIT License.
